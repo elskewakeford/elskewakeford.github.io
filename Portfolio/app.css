@@ -152,6 +152,11 @@ form {
     .colChange {
         padding: 25px 25px;
     }
+
+    .workimg {
+        width: 525px;
+        height: 300px;
+    }
   }
 
 @media (max-width: 768px) {
@@ -179,6 +184,11 @@ form {
 
     .colChange {
         padding: 15px 15px;
+    }
+
+    .workimg {
+        width: 325px;
+        height: 100px;
     }
 }
 
