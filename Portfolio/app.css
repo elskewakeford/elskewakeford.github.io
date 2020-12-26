@@ -25,6 +25,9 @@ form {
     padding-bottom: 100px;
 }
 
+section {
+    margin-top: 75px;
+}
 
 /* CLASS */
 
@@ -37,22 +40,11 @@ form {
     padding-top: 100px;
 }
 
-.workimg {
-    height: 300px;
-    width: 525px;
-    margin-bottom: 20px;
+.oneimg {
+    height: 10%;
+    width: 80%;
+    margin: 10px;
 }
-
-.borderCust {
-    /* margin-left: 75px; */
-    margin-right: 75px;
-    
-}
-
-.borderCustO {
-    margin-left: 120px;
-}
-
 /* ID */
 
 #homebut {
@@ -153,10 +145,6 @@ form {
         padding: 25px 25px;
     }
 
-    .workimg {
-        width: 525px;
-        height: 300px;
-    }
   }
 
 @media (max-width: 768px) {
@@ -186,9 +174,6 @@ form {
         padding: 15px 15px;
     }
 
-    .workimg {
-        width: 325px;
-        height: 100px;
-    }
+
 }
 
