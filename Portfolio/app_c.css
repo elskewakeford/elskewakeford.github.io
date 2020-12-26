@@ -1,0 +1,185 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    /* background: linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%); */
+    background: linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 60%, hsla(359, 73%, 81%, 1) 100%);
+    padding-top: 60px;
+    padding-bottom: 75px;
+}
+
+p {
+    padding-top: 20px;
+}
+
+button {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+form {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+
+/* CLASS */
+
+.form-row {
+    padding-bottom: 8px;
+}
+
+.helloW {
+    font-size: 100px;
+    padding-top: 100px;
+}
+
+/* ID */
+
+#homebut {
+    margin-top: 20px;
+}
+
+#xtra {
+    padding-top: 100px;
+}
+
+#yellow:hover {
+    color: #fdffb6;
+}
+
+#formfill {
+    padding-top: 120px;
+}
+#mainNavbar .nav-link:hover {
+    color: #fdffb6;
+}
+
+#mainNavbar .navbar-brand {
+    color: black;
+    font-size: 1.5rem;
+}
+
+/* LOGOS */
+
+.imgLogo {
+    height: 60px;
+    width: 60px;
+    padding-bottom: 8px;
+}
+
+.fa-facebook {
+    color: rgb(143, 138, 138);
+    padding-right: 4px;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+    
+}
+
+.fa-pinterest {
+    color: rgb(143, 138, 138);
+    padding-right: 4px;
+}
+
+.fa-pinterest:hover {
+    color: #c8232c;
+    
+}
+
+.fa-instagram {
+    color: rgb(143, 138, 138);
+    padding-right: 4px;
+}
+
+.fa-instagram:hover {
+    color: #bc2a8d;
+    
+}
+
+.fa-github {
+    color: rgb(143, 138, 138);
+    padding-right: 4px;
+}
+
+.fa-github:hover {
+    color: #211F1F;
+}
+
+.fa-salesforce {
+    color: rgb(143, 138, 138);
+    padding-right: 4px;
+}
+
+.fa-salesforce:hover {
+    color: #1798c1;
+}
+
+/* OTHER */
+
+.Courses {
+    padding: 25px 25px;
+}
+
+/* COMPATIBILITY */
+
+@media (min-width: 768px) {
+    .helloW {
+        font-size: 100px;
+        padding-top: 230px;
+    }    
+
+    .SkillsText {
+        font-size: 2.5rem;
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+
+    .AboutText {
+        font-size: 2.5rem;
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+
+    .Edu {
+        font-size: 2.5rem;
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+
+    .colChange {
+        padding: 25px 25px;
+    }
+  }
+
+@media (max-width: 768px) {
+    .helloW {
+        font-size: 80px;
+    } 
+
+    .SkillsText {
+        font-size: 1.5rem;
+        padding-top: 75px;
+        padding-bottom: 25px;
+    }
+
+    .AboutText {
+        font-size: 1.5rem;
+        padding-top: 75px;
+        padding-bottom: 25px;
+    }
+
+    .Edu {
+        font-size: 1.5rem;
+        padding-top: 75px;
+        padding-bottom: 25px;
+    }
+
+    .colChange {
+        padding: 15px 15px;
+    }
+}
