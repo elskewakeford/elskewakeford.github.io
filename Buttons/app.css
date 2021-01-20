@@ -4,7 +4,9 @@ h1 {
 
 button{
     display: inline-flex;
-    margin: 100px;
+    margin: 50px;
+    height: 100px;
+    width: 100px;
     padding: 75px;
     border-radius: 80%;
     
