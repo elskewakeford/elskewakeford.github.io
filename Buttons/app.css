@@ -1,17 +1,22 @@
 h1 {
+    border-top: 10px;
     border-bottom: 10px;
 }
 
 button{
-    display: inline-flex;
-    margin: 50px;
+    
+    text-align: center;
     height: 100px;
-    width: 100px;
-    padding: 75px;
+    width: 150px;
+    padding: 10px;
+    margin: 20px;
+    
+    
     border-radius: 80%;
     
 }
 
 body {
     align-items:  center;
+    text-align: center;
 }
