@@ -9,6 +9,7 @@ body {
     border : 2px solid black;
     padding: 5px;
     margin: 10px;
+    border-radius: 10px;
 }
 .pokemon img {
     display: block;
