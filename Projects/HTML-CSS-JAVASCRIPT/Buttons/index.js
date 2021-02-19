@@ -21,5 +21,6 @@ for (let button of buttons) {
         const newColor = MakeRandColor()
         button.style.backgroundColor = newColor;
         button.innerText = newColor;
+        button.style.borderColor = newColor;
     })
 }
