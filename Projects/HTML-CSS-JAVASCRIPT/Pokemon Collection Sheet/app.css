@@ -1,9 +1,14 @@
+body {
+    background-color: #FFCB05;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .pokemon {
     display: inline-block;
     text-align: center;
     border : 2px solid black;
     padding: 5px;
-    margin: 10px
+    margin: 10px;
 }
 .pokemon img {
     display: block;
