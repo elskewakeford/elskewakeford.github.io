@@ -36,6 +36,7 @@ nav {
     min-height: 8vh;
     background-color: #000000;
     width: 100%;
+    position: fixed;
 }
 
 .logo {
