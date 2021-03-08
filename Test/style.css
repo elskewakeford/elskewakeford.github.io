@@ -129,6 +129,13 @@ nav {
     .footer {
         bottom: 0;
     }
+
+    .photo-img {
+        width: 40%;
+        height: 40%;
+        border-radius: 50%;
+        padding: 50px 15px;
+    }
 }
 
 .nav-active {
@@ -193,11 +200,6 @@ span {
     color: #ff6ec7;
 }
 
-.main-img {
-    display: flex;
-    justify-content: center;
-    /* transform: translateX(-50), translateY(50); */
-}
 
 /* .signUp {
     display: block;
