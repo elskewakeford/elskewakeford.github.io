@@ -150,22 +150,6 @@ span {
     display: block;
 }
 
-.covidBanner {
-    display: block;
-    background: #ff6ec7;
-    padding: 10px 0;
-    width: 100%; 
-}
-
-.covidBanner p {
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-}
-
-.covidBanner a:hover {
-    color: #ff009d;
-}
 
 .learn {
     position: absolute;
