@@ -11,6 +11,8 @@
 
 body {
     background: #fdddd8;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .sections {
@@ -87,7 +89,7 @@ nav {
     .nav-links {
         position: absolute;
         right: 0px;
-        height: 90vh;
+        height:88vh;
         top: 8vh;
         background-color: #000000;
         display: flex;
@@ -106,6 +108,9 @@ nav {
         display: block;
     }
 
+    .footer {
+        bottom: 0;
+    }
 }
 
 .nav-active {
