@@ -39,6 +39,7 @@ body {
 }
 .hero-text {
     text-align: center;
+    margin-bottom: 25px;
 }
 
 .learn {
@@ -230,25 +231,29 @@ span {
 */
 .sections button {
     background: black;
-    border-color: ;
-    margin-right: 20px;
+    border-color: black;
+    text-align: center;
+    margin: auto;
     border-radius: 5px;
     color: #fdddd8;
     width: 150px;
     height: 30px;
-    margin-top: 10px;
     padding: 4px 4px;
+    margin-bottom: 50px;
 }
 
 .sectionsA button {
     background: #fdddd8;
     border-color: #fdddd8;
+    text-align: center;
+    margin: auto;
     border-radius: 5px;
     color: black;
     width: 150px;
     height: 30px;
     padding: 4px 4px;
     align-content: center;
+    margin-bottom: 50px;
 }
 
 button:hover {
