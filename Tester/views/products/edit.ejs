@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+        body {
+            margin-top: 5%;
+            margin-left: 15%;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        section {
+            box-shadow: 11px 11px 64px -13px rgba(0, 0, 0, 0.58);
+            -webkit-box-shadow: 11px 11px 64px -13px rgba(0, 0, 0, 0.58);
+            -moz-box-shadow: 11px 11px 64px -13px rgba(0, 0, 0, 0.58);
+            width: 80%;
+            height: 80%px;
+            border-radius: 20px;
+            padding: 10px;
+            margin-top: 25px;
+            margin-bottom: 5%;
+        }
+
+        section h1 {
+            font-size: 35px;
+            text-align: center;
+        }
+
+        form {
+            text-align: left;
+            margin-left: 35px;
+        }
+
+        button {
+            margin-top: 20px;
+            margin-bottom: 5%;
+        }
+    </style>
+    <title>Edit Product</title>
+</head>
+
+<body>
+    <section>
+        <h1>Edit Product</h1>
+        <form action="/products/<%= product._id%>?_method=PUT" method='POST'>
+            <label for="name">Product Name</label>
+            <br>
+            <input type="text" name="name" placeholder="product name" id="name" value="<%= product.name %> ">
+            <br>
+            <label for="price">Product Price</label>
+            <br>
+            <input type="number" name="price" placeholder="product price" id="price" value="<%= product.price %>">
+            <br>
+            <label for=" category">Product Category</label>
+            <br>
+            <select name="category" id="category">
+                <% for(let category of categories){ %>
+                    <option value="<%=category%>" <%=product.category===category ? 'selected' : '' %> >
+                        <%=category%>
+                    </option>
+                    <% } %>
+            </select>
+            <br>
+            <button>Submit</button>
+        </form>
+    </section>
+    <a href="/products/<%=product._id %> ">Cancel</a>
+</body>
+
+</html>

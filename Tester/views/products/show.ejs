@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+        body {
+            margin-top: 5%;
+            margin-left: 15%;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        section {
+            box-shadow: 11px 11px 64px -13px rgba(0, 0, 0, 0.58);
+            -webkit-box-shadow: 11px 11px 64px -13px rgba(0, 0, 0, 0.58);
+            -moz-box-shadow: 11px 11px 64px -13px rgba(0, 0, 0, 0.58);
+            width: 80%;
+            height: 80%px;
+            border-radius: 20px;
+            padding: 10px;
+            margin-top: 25px;
+            margin-bottom: 5%;
+        }
+
+        section h1 {
+            font-size: 35px;
+            text-align: center;
+        }
+
+        section a {
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.58);
+        }
+
+        section ul li {
+            list-style: none;
+        }
+
+        section a:hover {
+            color: red;
+        }
+    </style>
+    <title>
+        <%= product.name %>
+    </title>
+</head>
+
+<body>
+    <section>
+        <h1>
+            <%= product.name %>
+        </h1>
+        <ul>
+            <li>Price: <%= product.price %>
+            </li>
+            <li>Category: <a href="/products?category=<%= product.category %>">
+                    <%= product.category %>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <a href="/products">All Products</a>
+    <a href="/products/<%=product._id%>/edit">Edit Product</a>
+
+    <form action="/products/<%=product._id %>?_method=DELETE" method="POST">
+        <button>DELETE</button>
+    </form>
+</body>
+
+</html>
